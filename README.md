@@ -14,6 +14,15 @@ Used recommendation engine techniques such as Collaborative , Content-Based filt
 * PdfMiner.six
 * Python 3.6.0 |Anaconda 4.3.0 (64-bit)|
 
+### Textract installation on ubuntu
+```
+apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils \
+ pstotext tesseract-ocr \
+ flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libasound2-dev libpulse-dev
+
+pip install git+https://github.com/deanmalmgren/textract
+```
+
 # Dataset
 
 * Link : https://s3.ap-south-1.amazonaws.com/codebyte-bucket/Resume%26Job_Descriptions.zip
